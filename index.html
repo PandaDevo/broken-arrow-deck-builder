@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Broken Arrow Deck Builder</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="app">
+
+<section class="filters">
+
+    <input
+    type="text"
+    id="searchInput"
+    placeholder="Search units..."
+>
+    <select id="factionSelect">
+        <option value="USA">USA</option>
+        <option value="Russia">Russia</option>
+    </select>
+
+    <select id="specOneSelect"></select>
+    <select id="specTwoSelect"></select>
+</section>
+
+<select id="categoryFilter">
+    <option value="ALL">All Categories</option>
+    <option value="REC">REC</option>
+    <option value="INF">INF</option>
+    <option value="VEH">VEH</option>
+    <option value="SUP">SUP</option>
+    <option value="HEL">HEL</option>
+    <option value="AIR">AIR</option>
+</select>
+
+<select id="tagFilter">
+    <option value="ALL">All Roles</option>
+    <option value="Recon">Recon</option>
+    <option value="Artillery">Artillery</option>
+    <option value="AA">AA</option>
+    <option value="AT">AT</option>
+    <option value="Paradrop">Paradrop</option>
+    <option value="IFV">IFV</option>
+    <option value="SOF">SOF</option>
+</select>
+
+        <section class="points-grid">
+
+            <div class="point-card">
+                <h2>REC</h2>
+                <span id="recPoints">0 / 2250</span>
+            </div>
+
+            <div class="point-card">
+                <h2>INF</h2>
+                <span id="infPoints">0 / 2250</span>
+            </div>
+
+            <div class="point-card">
+                <h2>VEH</h2>
+                <span id="vehPoints">0 / 1750</span>
+            </div>
+
+            <div class="point-card">
+                <h2>SUP</h2>
+                <span id="supPoints">0 / 1250</span>
+            </div>
+
+            <div class="point-card">
+                <h2>HEL</h2>
+                <span id="helPoints">0 / 1250</span>
+            </div>
+
+            <div class="point-card">
+                <h2>AIR</h2>
+                <span id="airPoints">0 / 1250</span>
+            </div>
+
+        </section>
+
+        <section class="units-section">
+
+    <h2>Available Units</h2>
+
+    <div id="unitsContainer" class="units-grid"></div>
+
+</section>
+
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>

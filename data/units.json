@@ -1,0 +1,147 @@
+[
+    {
+        "id": 1,
+        "name": "Rangers",
+        "faction": "USA",
+        "specialization": "Airborne",
+        "category": "INF",
+        "cost": 140,
+        "transportOptions": [
+            "Blackhawk",
+            "C-17"
+        ],
+        "tags": [
+            "SOF",
+            "Airborne",
+            "Recon"
+        ]
+    },
+
+    {
+        "id": 2,
+        "name": "Airborne Infantry",
+        "faction": "USA",
+        "specialization": "Airborne",
+        "category": "INF",
+        "cost": 110,
+        "transportOptions": [
+            "Blackhawk",
+            "C-17"
+        ],
+        "tags": [
+            "Airborne"
+        ]
+    },
+
+    {
+        "id": 3,
+        "name": "Bradley TOW-2B",
+        "faction": "USA",
+        "specialization": "Armored",
+        "category": "VEH",
+        "cost": 180,
+        "transportOptions": [],
+        "tags": [
+            "IFV",
+            "AT"
+        ]
+    },
+
+    {
+        "id": 4,
+        "name": "MLRS",
+        "faction": "USA",
+        "specialization": "Armored",
+        "category": "SUP",
+        "cost": 260,
+        "transportOptions": [],
+        "tags": [
+            "Artillery"
+        ]
+    },
+
+    {
+        "id": 5,
+        "name": "GMLRS",
+        "faction": "USA",
+        "specialization": "Armored",
+        "category": "SUP",
+        "cost": 320,
+        "transportOptions": [],
+        "tags": [
+            "Artillery",
+            "Precision"
+        ]
+    },
+
+    {
+        "id": 6,
+        "name": "Global Hawk",
+        "faction": "USA",
+        "specialization": "Airborne",
+        "category": "REC",
+        "cost": 220,
+        "transportOptions": [],
+        "tags": [
+            "Drone",
+            "Recon"
+        ]
+    },
+
+    {
+        "id": 7,
+        "name": "C-17",
+        "faction": "USA",
+        "specialization": "Airborne",
+        "category": "AIR",
+        "cost": 280,
+        "transportOptions": [],
+        "tags": [
+            "Transport",
+            "Paradrop"
+        ]
+    },
+
+    {
+        "id": 8,
+        "name": "VDV Infantry",
+        "faction": "Russia",
+        "specialization": "VDV",
+        "category": "INF",
+        "cost": 120,
+        "transportOptions": [
+            "Mi-8",
+            "Il-76"
+        ],
+        "tags": [
+            "Airborne"
+        ]
+    },
+
+    {
+        "id": 9,
+        "name": "BM-30 Smerch",
+        "faction": "Russia",
+        "specialization": "Mechanized",
+        "category": "SUP",
+        "cost": 340,
+        "transportOptions": [],
+        "tags": [
+            "Artillery",
+            "Rocket"
+        ]
+    },
+
+    {
+        "id": 10,
+        "name": "Ka-52",
+        "faction": "Russia",
+        "specialization": "VDV",
+        "category": "HEL",
+        "cost": 260,
+        "transportOptions": [],
+        "tags": [
+            "Attack Helicopter"
+        ]
+    }
+]
