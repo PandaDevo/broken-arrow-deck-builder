@@ -1,147 +1,3301 @@
 [
     {
         "id": 1,
-        "name": "Rangers",
+        "name": "Force Recon",
         "faction": "USA",
-        "specialization": "Airborne",
-        "category": "INF",
-        "cost": 140,
-        "transportOptions": [
-            "Blackhawk",
-            "C-17"
-        ],
+        "specialization": "USMC",
+        "category": "REC",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
         "tags": [
-            "SOF",
-            "Airborne",
             "Recon"
-        ]
+        ],
+        "upgrades": []
     },
-
     {
         "id": 2,
-        "name": "Airborne Infantry",
+        "name": "Scout Snipers",
         "faction": "USA",
-        "specialization": "Airborne",
-        "category": "INF",
-        "cost": 110,
-        "transportOptions": [
-            "Blackhawk",
-            "C-17"
-        ],
+        "specialization": "USMC",
+        "category": "REC",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
         "tags": [
-            "Airborne"
-        ]
+            "Recon"
+        ],
+        "upgrades": []
     },
-
     {
         "id": 3,
-        "name": "Bradley TOW-2B",
+        "name": "Humvee GMV",
         "faction": "USA",
-        "specialization": "Armored",
+        "specialization": "USMC",
+        "category": "REC",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Recon"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 4,
+        "name": "IFAV M2",
+        "faction": "USA",
+        "specialization": "USMC",
+        "category": "REC",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Recon"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 5,
+        "name": "LAV-25A1",
+        "faction": "USA",
+        "specialization": "USMC",
+        "category": "REC",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Recon"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 6,
+        "name": "Cavalry Scouts",
+        "faction": "USA",
+        "specialization": "Armored Brigade",
+        "category": "REC",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Recon"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 7,
+        "name": "M1A2 SEP v2 TUA",
+        "faction": "USA",
+        "specialization": "Armored Brigade",
+        "category": "REC",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Recon"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 8,
+        "name": "M3A2 CFV",
+        "faction": "USA",
+        "specialization": "Armored Brigade",
+        "category": "REC",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Recon"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 9,
+        "name": "M3A3 CFV",
+        "faction": "USA",
+        "specialization": "Armored Brigade",
+        "category": "REC",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Recon"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 10,
+        "name": "M7A2 BFIST",
+        "faction": "USA",
+        "specialization": "Armored Brigade",
+        "category": "REC",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Recon"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 11,
+        "name": "M981 FISTV",
+        "faction": "USA",
+        "specialization": "Armored Brigade",
+        "category": "REC",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Recon"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 12,
+        "name": "Army Snipers",
+        "faction": "USA",
+        "specialization": "Airborne Infantry",
+        "category": "REC",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Recon"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 13,
+        "name": "Humvee LRAS3",
+        "faction": "USA",
+        "specialization": "Airborne Infantry",
+        "category": "REC",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Recon"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 14,
+        "name": "Humvee RWS",
+        "faction": "USA",
+        "specialization": "Airborne Infantry",
+        "category": "REC",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Recon"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 15,
+        "name": "MQ-1C Gray Eagle",
+        "faction": "USA",
+        "specialization": "Airborne Infantry",
+        "category": "REC",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Recon"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 16,
+        "name": "RQ-4 Global Hawk",
+        "faction": "USA",
+        "specialization": "Airborne Infantry",
+        "category": "REC",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Recon"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 17,
+        "name": "Assaultmen SRAW/SMAW",
+        "faction": "USA",
+        "specialization": "USMC",
+        "category": "INF",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "AT"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 18,
+        "name": "CAAT Dragon",
+        "faction": "USA",
+        "specialization": "USMC",
+        "category": "INF",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "AT"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 19,
+        "name": "CAAT TOW-2A",
+        "faction": "USA",
+        "specialization": "USMC",
+        "category": "INF",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "AT"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 20,
+        "name": "Marine Raiders CQC",
+        "faction": "USA",
+        "specialization": "USMC",
+        "category": "INF",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "SOF"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 21,
+        "name": "Marines",
+        "faction": "USA",
+        "specialization": "USMC",
+        "category": "INF",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [],
+        "upgrades": []
+    },
+    {
+        "id": 22,
+        "name": "Mech. Engineers",
+        "faction": "USA",
+        "specialization": "Armored Brigade",
+        "category": "INF",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [],
+        "upgrades": []
+    },
+    {
+        "id": 23,
+        "name": "Mech. Riflemen",
+        "faction": "USA",
+        "specialization": "Armored Brigade",
+        "category": "INF",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [],
+        "upgrades": []
+    },
+    {
+        "id": 24,
+        "name": "Mech Riflemen AA",
+        "faction": "USA",
+        "specialization": "Armored Brigade",
+        "category": "INF",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [],
+        "upgrades": []
+    },
+    {
+        "id": 25,
+        "name": "Mech. Riflemen MMG",
+        "faction": "USA",
+        "specialization": "Armored Brigade",
+        "category": "INF",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [],
+        "upgrades": []
+    },
+    {
+        "id": 26,
+        "name": "Airborne",
+        "faction": "USA",
+        "specialization": "Airborne Infantry",
+        "category": "INF",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Paradrop"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 27,
+        "name": "M2 HMG Team",
+        "faction": "USA",
+        "specialization": "Airborne Infantry",
+        "category": "INF",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [],
+        "upgrades": []
+    },
+    {
+        "id": 28,
+        "name": "Mk19 AGL Team",
+        "faction": "USA",
+        "specialization": "Airborne Infantry",
+        "category": "INF",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [],
+        "upgrades": []
+    },
+    {
+        "id": 29,
+        "name": "Stinger Team",
+        "faction": "USA",
+        "specialization": "Airborne Infantry",
+        "category": "INF",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "AA"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 30,
+        "name": "TOW-2A",
+        "faction": "USA",
+        "specialization": "Airborne Infantry",
+        "category": "INF",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "AT"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 31,
+        "name": "Weapons Squad",
+        "faction": "USA",
+        "specialization": "Airborne Infantry",
+        "category": "INF",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [],
+        "upgrades": []
+    },
+    {
+        "id": 32,
+        "name": "AAVP-7A1",
+        "faction": "USA",
+        "specialization": "USMC",
         "category": "VEH",
-        "cost": 180,
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [],
+        "upgrades": []
+    },
+    {
+        "id": 33,
+        "name": "ACV-P",
+        "faction": "USA",
+        "specialization": "USMC",
+        "category": "VEH",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "IFV"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 34,
+        "name": "LAV-AT",
+        "faction": "USA",
+        "specialization": "USMC",
+        "category": "VEH",
+        "cost": 0,
+        "verified": false,
         "transportOptions": [],
         "tags": [
             "IFV",
             "AT"
-        ]
+        ],
+        "upgrades": []
     },
-
     {
-        "id": 4,
-        "name": "MLRS",
+        "id": 35,
+        "name": "M1A1 FEP",
         "faction": "USA",
-        "specialization": "Armored",
+        "specialization": "USMC",
+        "category": "VEH",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Tank"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 36,
+        "name": "M1A1 HC",
+        "faction": "USA",
+        "specialization": "USMC",
+        "category": "VEH",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Tank"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 37,
+        "name": "M60A1",
+        "faction": "USA",
+        "specialization": "USMC",
+        "category": "VEH",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [],
+        "upgrades": []
+    },
+    {
+        "id": 38,
+        "name": "M113A3",
+        "faction": "USA",
+        "specialization": "Armored Brigade",
+        "category": "VEH",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [],
+        "upgrades": []
+    },
+    {
+        "id": 39,
+        "name": "M1150 Assault Breacher",
+        "faction": "USA",
+        "specialization": "Armored Brigade",
+        "category": "VEH",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [],
+        "upgrades": []
+    },
+    {
+        "id": 40,
+        "name": "M1283 AMPV",
+        "faction": "USA",
+        "specialization": "Armored Brigade",
+        "category": "VEH",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [],
+        "upgrades": []
+    },
+    {
+        "id": 41,
+        "name": "M1A2 Abrams",
+        "faction": "USA",
+        "specialization": "Armored Brigade",
+        "category": "VEH",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Tank"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 42,
+        "name": "M1A2 SEP",
+        "faction": "USA",
+        "specialization": "Armored Brigade",
+        "category": "VEH",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Tank"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 43,
+        "name": "M1A2 SEP v2",
+        "faction": "USA",
+        "specialization": "Armored Brigade",
+        "category": "VEH",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Tank"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 44,
+        "name": "M1A2 SEP v3",
+        "faction": "USA",
+        "specialization": "Armored Brigade",
+        "category": "VEH",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Tank"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 45,
+        "name": "M2A2 Bradley",
+        "faction": "USA",
+        "specialization": "Armored Brigade",
+        "category": "VEH",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "IFV"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 46,
+        "name": "M2A2 Bradley ESV",
+        "faction": "USA",
+        "specialization": "Armored Brigade",
+        "category": "VEH",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "IFV"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 47,
+        "name": "M2A3 Bradley",
+        "faction": "USA",
+        "specialization": "Armored Brigade",
+        "category": "VEH",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "IFV"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 48,
+        "name": "M2A3 Bradley ESV",
+        "faction": "USA",
+        "specialization": "Armored Brigade",
+        "category": "VEH",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "IFV"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 49,
+        "name": "M901A3",
+        "faction": "USA",
+        "specialization": "Armored Brigade",
+        "category": "VEH",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "AT"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 50,
+        "name": "Humvee M240",
+        "faction": "USA",
+        "specialization": "Airborne Infantry",
+        "category": "VEH",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [],
+        "upgrades": []
+    },
+    {
+        "id": 51,
+        "name": "Humvee TOW-2A",
+        "faction": "USA",
+        "specialization": "Airborne Infantry",
+        "category": "VEH",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "AT"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 52,
+        "name": "M1301 ISV",
+        "faction": "USA",
+        "specialization": "Airborne Infantry",
+        "category": "VEH",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [],
+        "upgrades": []
+    },
+    {
+        "id": 53,
+        "name": "M551A1 Sheridan",
+        "faction": "USA",
+        "specialization": "Airborne Infantry",
+        "category": "VEH",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Tank"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 54,
+        "name": "M8 AGS",
+        "faction": "USA",
+        "specialization": "Airborne Infantry",
+        "category": "VEH",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Tank"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 55,
+        "name": "AAVP MICLIC",
+        "faction": "USA",
+        "specialization": "USMC",
         "category": "SUP",
-        "cost": 260,
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [],
+        "upgrades": []
+    },
+    {
+        "id": 56,
+        "name": "LAV-AD",
+        "faction": "USA",
+        "specialization": "USMC",
+        "category": "SUP",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "AA"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 57,
+        "name": "LAV-L",
+        "faction": "USA",
+        "specialization": "USMC",
+        "category": "SUP",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [],
+        "upgrades": []
+    },
+    {
+        "id": 58,
+        "name": "LAV-M",
+        "faction": "USA",
+        "specialization": "USMC",
+        "category": "SUP",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [],
+        "upgrades": []
+    },
+    {
+        "id": 59,
+        "name": "LVSR",
+        "faction": "USA",
+        "specialization": "USMC",
+        "category": "SUP",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Logistics"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 60,
+        "name": "MTVR",
+        "faction": "USA",
+        "specialization": "USMC",
+        "category": "SUP",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Logistics"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 61,
+        "name": "M1064A3",
+        "faction": "USA",
+        "specialization": "Armored Brigade",
+        "category": "SUP",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [],
+        "upgrades": []
+    },
+    {
+        "id": 62,
+        "name": "M109A6 Paladin",
+        "faction": "USA",
+        "specialization": "Armored Brigade",
+        "category": "SUP",
+        "cost": 0,
+        "verified": false,
         "transportOptions": [],
         "tags": [
             "Artillery"
-        ]
+        ],
+        "upgrades": []
     },
-
     {
-        "id": 5,
-        "name": "GMLRS",
+        "id": 63,
+        "name": "M109A7 Paladin",
         "faction": "USA",
-        "specialization": "Armored",
+        "specialization": "Armored Brigade",
         "category": "SUP",
-        "cost": 320,
+        "cost": 0,
+        "verified": false,
         "transportOptions": [],
         "tags": [
-            "Artillery",
-            "Precision"
-        ]
+            "Artillery"
+        ],
+        "upgrades": []
     },
-
     {
-        "id": 6,
-        "name": "Global Hawk",
+        "id": 64,
+        "name": "M1287 MCV",
         "faction": "USA",
-        "specialization": "Airborne",
-        "category": "REC",
-        "cost": 220,
+        "specialization": "Armored Brigade",
+        "category": "SUP",
+        "cost": 0,
+        "verified": false,
         "transportOptions": [],
         "tags": [
-            "Drone",
-            "Recon"
-        ]
+            "Artillery"
+        ],
+        "upgrades": []
     },
-
     {
-        "id": 7,
-        "name": "C-17",
+        "id": 65,
+        "name": "M163 PIVADS",
         "faction": "USA",
-        "specialization": "Airborne",
+        "specialization": "Armored Brigade",
+        "category": "SUP",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "AA"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 66,
+        "name": "M270 MLRS",
+        "faction": "USA",
+        "specialization": "Armored Brigade",
+        "category": "SUP",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Artillery"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 67,
+        "name": "M270A2 GMLRS",
+        "faction": "USA",
+        "specialization": "Armored Brigade",
+        "category": "SUP",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Artillery"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 68,
+        "name": "M548A3",
+        "faction": "USA",
+        "specialization": "Armored Brigade",
+        "category": "SUP",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Logistics"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 69,
+        "name": "M6 Linebacker",
+        "faction": "USA",
+        "specialization": "Armored Brigade",
+        "category": "SUP",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "AA"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 70,
+        "name": "Patriot PAC-2",
+        "faction": "USA",
+        "specialization": "Armored Brigade",
+        "category": "SUP",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "AA"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 71,
+        "name": "AN/TWQ-1 Avenger",
+        "faction": "USA",
+        "specialization": "Airborne Infantry",
+        "category": "SUP",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "AA"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 72,
+        "name": "Brutus",
+        "faction": "USA",
+        "specialization": "Airborne Infantry",
+        "category": "SUP",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Artillery"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 73,
+        "name": "Hawkeye MWS",
+        "faction": "USA",
+        "specialization": "Airborne Infantry",
+        "category": "SUP",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Artillery"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 74,
+        "name": "LMTV",
+        "faction": "USA",
+        "specialization": "Airborne Infantry",
+        "category": "SUP",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Logistics"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 75,
+        "name": "MTV",
+        "faction": "USA",
+        "specialization": "Airborne Infantry",
+        "category": "SUP",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Logistics"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 76,
+        "name": "SLAMRAAM",
+        "faction": "USA",
+        "specialization": "Airborne Infantry",
+        "category": "SUP",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "AA"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 77,
+        "name": "AH-1W Supercobra",
+        "faction": "USA",
+        "specialization": "USMC",
+        "category": "HEL",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Helicopter"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 78,
+        "name": "AH-1Z Viper",
+        "faction": "USA",
+        "specialization": "USMC",
+        "category": "HEL",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Helicopter"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 79,
+        "name": "CH-53E Super Stallion",
+        "faction": "USA",
+        "specialization": "USMC",
+        "category": "HEL",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Helicopter"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 80,
+        "name": "CH-53E King Stallion",
+        "faction": "USA",
+        "specialization": "USMC",
+        "category": "HEL",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Helicopter"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 81,
+        "name": "MV-22B Osprey",
+        "faction": "USA",
+        "specialization": "USMC",
+        "category": "HEL",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Helicopter"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 82,
+        "name": "UH-1Y Venom",
+        "faction": "USA",
+        "specialization": "USMC",
+        "category": "HEL",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Helicopter"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 83,
+        "name": "AH-64D Apache",
+        "faction": "USA",
+        "specialization": "Airborne Infantry",
+        "category": "HEL",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Helicopter"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 84,
+        "name": "AH-64D Longbow",
+        "faction": "USA",
+        "specialization": "Airborne Infantry",
+        "category": "HEL",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Helicopter"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 85,
+        "name": "CH-47 Chinook",
+        "faction": "USA",
+        "specialization": "Airborne Infantry",
+        "category": "HEL",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Helicopter"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 86,
+        "name": "OH-58D Kiowa Warrior",
+        "faction": "USA",
+        "specialization": "Airborne Infantry",
+        "category": "HEL",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Helicopter"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 87,
+        "name": "UH-60M Blackhawk",
+        "faction": "USA",
+        "specialization": "Airborne Infantry",
+        "category": "HEL",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Helicopter"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 88,
+        "name": "AV-8B Harrier II Plus",
+        "faction": "USA",
+        "specialization": "USMC",
         "category": "AIR",
-        "cost": 280,
+        "cost": 0,
+        "verified": false,
         "transportOptions": [],
         "tags": [
+            "Aircraft"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 89,
+        "name": "AV-8B Night Attack",
+        "faction": "USA",
+        "specialization": "USMC",
+        "category": "AIR",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Aircraft"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 90,
+        "name": "EA-6B Prowler",
+        "faction": "USA",
+        "specialization": "USMC",
+        "category": "AIR",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Aircraft",
+            "SEAD"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 91,
+        "name": "F/A-18C Hornet",
+        "faction": "USA",
+        "specialization": "USMC",
+        "category": "AIR",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Aircraft"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 92,
+        "name": "F/A-18D Hornet",
+        "faction": "USA",
+        "specialization": "USMC",
+        "category": "AIR",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Aircraft"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 93,
+        "name": "F-35B",
+        "faction": "USA",
+        "specialization": "USMC",
+        "category": "AIR",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Aircraft"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 94,
+        "name": "KC-130J Harvest Hawk",
+        "faction": "USA",
+        "specialization": "USMC",
+        "category": "AIR",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Aircraft",
             "Transport",
             "Paradrop"
-        ]
-    },
-
-    {
-        "id": 8,
-        "name": "VDV Infantry",
-        "faction": "Russia",
-        "specialization": "VDV",
-        "category": "INF",
-        "cost": 120,
-        "transportOptions": [
-            "Mi-8",
-            "Il-76"
         ],
-        "tags": [
-            "Airborne"
-        ]
+        "upgrades": []
     },
-
     {
-        "id": 9,
-        "name": "BM-30 Smerch",
-        "faction": "Russia",
-        "specialization": "Mechanized",
+        "id": 95,
+        "name": "B-1B Lancer",
+        "faction": "USA",
+        "specialization": "Airborne Infantry",
+        "category": "AIR",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Aircraft"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 96,
+        "name": "C-130J-30 Hercules",
+        "faction": "USA",
+        "specialization": "Airborne Infantry",
+        "category": "AIR",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Aircraft",
+            "Transport",
+            "Paradrop"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 97,
+        "name": "C-17 Globemaster",
+        "faction": "USA",
+        "specialization": "Airborne Infantry",
+        "category": "AIR",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Aircraft",
+            "Transport",
+            "Paradrop"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 98,
+        "name": "F-15C Eagle",
+        "faction": "USA",
+        "specialization": "Airborne Infantry",
+        "category": "AIR",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Aircraft"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 99,
+        "name": "F-15E Strike Eagle",
+        "faction": "USA",
+        "specialization": "Airborne Infantry",
+        "category": "AIR",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Aircraft"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 100,
+        "name": "F-15EX Eagle II",
+        "faction": "USA",
+        "specialization": "Airborne Infantry",
+        "category": "AIR",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Aircraft"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 101,
+        "name": "Scimitar",
+        "faction": "USA",
+        "specialization": "Baltic Battalion",
+        "category": "REC",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Recon"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 102,
+        "name": "Spartan",
+        "faction": "USA",
+        "specialization": "Baltic Battalion",
+        "category": "REC",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Recon"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 103,
+        "name": "TGB-1111",
+        "faction": "USA",
+        "specialization": "Baltic Battalion",
+        "category": "REC",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Recon"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 104,
+        "name": "Wolf WMIK",
+        "faction": "USA",
+        "specialization": "Baltic Battalion",
+        "category": "REC",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Recon"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 105,
+        "name": "Jegeris",
+        "faction": "USA",
+        "specialization": "Baltic Battalion",
+        "category": "REC",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Recon"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 106,
+        "name": "Eesti Scouts",
+        "faction": "USA",
+        "specialization": "Baltic Battalion",
+        "category": "REC",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Recon"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 107,
+        "name": "SUV",
+        "faction": "USA",
+        "specialization": "Baltic Battalion",
+        "category": "REC",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Recon"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 108,
+        "name": "KNT",
+        "faction": "USA",
+        "specialization": "Baltic Battalion",
+        "category": "REC",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Recon"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 109,
+        "name": "Snaiprid",
+        "faction": "USA",
+        "specialization": "Baltic Battalion",
+        "category": "REC",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Recon"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 110,
+        "name": "Snaiperu Komanda",
+        "faction": "USA",
+        "specialization": "Baltic Battalion",
+        "category": "REC",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Recon"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 111,
+        "name": "Jalaväe Jagu",
+        "faction": "USA",
+        "specialization": "Baltic Battalion",
+        "category": "INF",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [],
+        "upgrades": []
+    },
+    {
+        "id": 112,
+        "name": "Geležinis Vilkas",
+        "faction": "USA",
+        "specialization": "Baltic Battalion",
+        "category": "INF",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [],
+        "upgrades": []
+    },
+    {
+        "id": 113,
+        "name": "Mehanizētie Kājinieki",
+        "faction": "USA",
+        "specialization": "Baltic Battalion",
+        "category": "INF",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [],
+        "upgrades": []
+    },
+    {
+        "id": 114,
+        "name": "Kaitseliit",
+        "faction": "USA",
+        "specialization": "Baltic Battalion",
+        "category": "INF",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [],
+        "upgrades": []
+    },
+    {
+        "id": 115,
+        "name": "KASP",
+        "faction": "USA",
+        "specialization": "Baltic Battalion",
+        "category": "INF",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [],
+        "upgrades": []
+    },
+    {
+        "id": 116,
+        "name": "Zemessardze",
+        "faction": "USA",
+        "specialization": "Baltic Battalion",
+        "category": "INF",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [],
+        "upgrades": []
+    },
+    {
+        "id": 117,
+        "name": "ESTSOF",
+        "faction": "USA",
+        "specialization": "Baltic Battalion",
+        "category": "INF",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "SOF"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 118,
+        "name": "Žaliukai",
+        "faction": "USA",
+        "specialization": "Baltic Battalion",
+        "category": "INF",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [],
+        "upgrades": []
+    },
+    {
+        "id": 119,
+        "name": "Milan",
+        "faction": "USA",
+        "specialization": "Baltic Battalion",
+        "category": "INF",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "AT"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 120,
+        "name": "Javelin",
+        "faction": "USA",
+        "specialization": "Baltic Battalion",
+        "category": "INF",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "AT"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 121,
+        "name": "Spike LR",
+        "faction": "USA",
+        "specialization": "Baltic Battalion",
+        "category": "INF",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "AT"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 122,
+        "name": "Grom",
+        "faction": "USA",
+        "specialization": "Baltic Battalion",
+        "category": "INF",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "AA"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 123,
+        "name": "Piorun",
+        "faction": "USA",
+        "specialization": "Baltic Battalion",
+        "category": "INF",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "AA"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 124,
+        "name": "RBS 70",
+        "faction": "USA",
+        "specialization": "Baltic Battalion",
+        "category": "INF",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "AA"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 125,
+        "name": "M2 Browning",
+        "faction": "USA",
+        "specialization": "Baltic Battalion",
+        "category": "INF",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [],
+        "upgrades": []
+    },
+    {
+        "id": 126,
+        "name": "GMG",
+        "faction": "USA",
+        "specialization": "Baltic Battalion",
+        "category": "INF",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [],
+        "upgrades": []
+    },
+    {
+        "id": 127,
+        "name": "M2 + GMG",
+        "faction": "USA",
+        "specialization": "Baltic Battalion",
+        "category": "INF",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [],
+        "upgrades": []
+    },
+    {
+        "id": 128,
+        "name": "CV-9035",
+        "faction": "USA",
+        "specialization": "Baltic Battalion",
+        "category": "VEH",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "IFV"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 129,
+        "name": "IFV Vilkas",
+        "faction": "USA",
+        "specialization": "Baltic Battalion",
+        "category": "VEH",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "IFV"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 130,
+        "name": "M113",
+        "faction": "USA",
+        "specialization": "Baltic Battalion",
+        "category": "VEH",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [],
+        "upgrades": []
+    },
+    {
+        "id": 131,
+        "name": "XA-180",
+        "faction": "USA",
+        "specialization": "Baltic Battalion",
+        "category": "VEH",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [],
+        "upgrades": []
+    },
+    {
+        "id": 132,
+        "name": "Leopard 2A8",
+        "faction": "USA",
+        "specialization": "Baltic Battalion",
+        "category": "VEH",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Tank"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 133,
+        "name": "Type-X",
+        "faction": "USA",
+        "specialization": "Baltic Battalion",
+        "category": "VEH",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [],
+        "upgrades": []
+    },
+    {
+        "id": 134,
+        "name": "G-Wagen",
+        "faction": "USA",
+        "specialization": "Baltic Battalion",
+        "category": "VEH",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [],
+        "upgrades": []
+    },
+    {
+        "id": 135,
+        "name": "M109A5Ö",
+        "faction": "USA",
+        "specialization": "Baltic Battalion",
         "category": "SUP",
-        "cost": 340,
+        "cost": 0,
+        "verified": false,
         "transportOptions": [],
         "tags": [
-            "Artillery",
-            "Rocket"
-        ]
+            "Artillery"
+        ],
+        "upgrades": []
     },
-
     {
-        "id": 10,
-        "name": "Ka-52",
-        "faction": "Russia",
-        "specialization": "VDV",
-        "category": "HEL",
-        "cost": 260,
+        "id": 136,
+        "name": "K9 Kõu",
+        "faction": "USA",
+        "specialization": "Baltic Battalion",
+        "category": "SUP",
+        "cost": 0,
+        "verified": false,
         "transportOptions": [],
         "tags": [
-            "Attack Helicopter"
-        ]
+            "Artillery"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 137,
+        "name": "PzH-2000",
+        "faction": "USA",
+        "specialization": "Baltic Battalion",
+        "category": "SUP",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Artillery"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 138,
+        "name": "M113 Panzermörser",
+        "faction": "USA",
+        "specialization": "Baltic Battalion",
+        "category": "SUP",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Artillery"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 139,
+        "name": "Iris-T SLM",
+        "faction": "USA",
+        "specialization": "Baltic Battalion",
+        "category": "SUP",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "AA"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 140,
+        "name": "NASAMS",
+        "faction": "USA",
+        "specialization": "Baltic Battalion",
+        "category": "SUP",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "AA"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 141,
+        "name": "Unimog ZU-23/Mistral",
+        "faction": "USA",
+        "specialization": "Baltic Battalion",
+        "category": "SUP",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "AA",
+            "Logistics"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 142,
+        "name": "E13TP",
+        "faction": "USA",
+        "specialization": "Baltic Battalion",
+        "category": "SUP",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Logistics"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 143,
+        "name": "Unimog",
+        "faction": "USA",
+        "specialization": "Baltic Battalion",
+        "category": "SUP",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Logistics"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 144,
+        "name": "AS-365 Dauphin",
+        "faction": "USA",
+        "specialization": "Baltic Battalion",
+        "category": "HEL",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Helicopter"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 145,
+        "name": "UH-60M Blackhawk",
+        "faction": "USA",
+        "specialization": "Baltic Battalion",
+        "category": "HEL",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Helicopter"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 146,
+        "name": "L-39 Albatros",
+        "faction": "USA",
+        "specialization": "Baltic Battalion",
+        "category": "AIR",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Aircraft"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 147,
+        "name": "C-27J Spartan",
+        "faction": "USA",
+        "specialization": "Baltic Battalion",
+        "category": "AIR",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Aircraft",
+            "Transport"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 148,
+        "name": "VDV Razvedka",
+        "faction": "Russia",
+        "specialization": "VDV Brigade",
+        "category": "REC",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Recon",
+            "Paradrop"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 149,
+        "name": "VDV Snaipery",
+        "faction": "Russia",
+        "specialization": "VDV Brigade",
+        "category": "REC",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Recon",
+            "Paradrop"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 150,
+        "name": "VDV Spetsnaz",
+        "faction": "Russia",
+        "specialization": "VDV Brigade",
+        "category": "REC",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Recon",
+            "Paradrop"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 151,
+        "name": "1v119 Reostat",
+        "faction": "Russia",
+        "specialization": "VDV Brigade",
+        "category": "REC",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Recon"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 152,
+        "name": "Sarmat-2",
+        "faction": "Russia",
+        "specialization": "VDV Brigade",
+        "category": "REC",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Recon"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 153,
+        "name": "Typhoon VDV",
+        "faction": "Russia",
+        "specialization": "VDV Brigade",
+        "category": "REC",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Recon",
+            "Paradrop"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 154,
+        "name": "Forpost",
+        "faction": "Russia",
+        "specialization": "VDV Brigade",
+        "category": "REC",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Recon"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 155,
+        "name": "Orion",
+        "faction": "Russia",
+        "specialization": "VDV Brigade",
+        "category": "REC",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Recon"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 156,
+        "name": "BRM-3K",
+        "faction": "Russia",
+        "specialization": "Guard Tank Brigade",
+        "category": "REC",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Recon"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 157,
+        "name": "T-90M Nakidka",
+        "faction": "Russia",
+        "specialization": "Guard Tank Brigade",
+        "category": "REC",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Recon"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 158,
+        "name": "Morskaya Razvedka",
+        "faction": "Russia",
+        "specialization": "Coastal Troops",
+        "category": "REC",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Recon"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 159,
+        "name": "PDSS",
+        "faction": "Russia",
+        "specialization": "Coastal Troops",
+        "category": "REC",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Recon"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 160,
+        "name": "Spetsnaz VMF",
+        "faction": "Russia",
+        "specialization": "Coastal Troops",
+        "category": "REC",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Recon"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 161,
+        "name": "1V14 Mashina-S",
+        "faction": "Russia",
+        "specialization": "Coastal Troops",
+        "category": "REC",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Recon"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 162,
+        "name": "BRDM-2M",
+        "faction": "Russia",
+        "specialization": "Coastal Troops",
+        "category": "REC",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Recon"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 163,
+        "name": "VDV AGS-30",
+        "faction": "Russia",
+        "specialization": "VDV Brigade",
+        "category": "INF",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Paradrop"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 164,
+        "name": "VDV DSh",
+        "faction": "Russia",
+        "specialization": "VDV Brigade",
+        "category": "INF",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Paradrop"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 165,
+        "name": "VDV Igla",
+        "faction": "Russia",
+        "specialization": "VDV Brigade",
+        "category": "INF",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "AA",
+            "Paradrop"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 166,
+        "name": "VDV Kornet",
+        "faction": "Russia",
+        "specialization": "VDV Brigade",
+        "category": "INF",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "AT",
+            "Paradrop"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 167,
+        "name": "VDV Metis-M",
+        "faction": "Russia",
+        "specialization": "VDV Brigade",
+        "category": "INF",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "AT",
+            "Paradrop"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 168,
+        "name": "AGS-40",
+        "faction": "Russia",
+        "specialization": "Guard Tank Brigade",
+        "category": "INF",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [],
+        "upgrades": []
+    },
+    {
+        "id": 169,
+        "name": "Gvardii Motostrelki",
+        "faction": "Russia",
+        "specialization": "Guard Tank Brigade",
+        "category": "INF",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [],
+        "upgrades": []
+    },
+    {
+        "id": 170,
+        "name": "Ingenery-Shturmoviki",
+        "faction": "Russia",
+        "specialization": "Guard Tank Brigade",
+        "category": "INF",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [],
+        "upgrades": []
+    },
+    {
+        "id": 171,
+        "name": "PZRK Verba",
+        "faction": "Russia",
+        "specialization": "Guard Tank Brigade",
+        "category": "INF",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "AA"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 172,
+        "name": "Chernye Berety",
+        "faction": "Russia",
+        "specialization": "Coastal Troops",
+        "category": "INF",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [],
+        "upgrades": []
+    },
+    {
+        "id": 173,
+        "name": "Gornostrelki",
+        "faction": "Russia",
+        "specialization": "Coastal Troops",
+        "category": "INF",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [],
+        "upgrades": []
+    },
+    {
+        "id": 174,
+        "name": "Morskaya Pekhota",
+        "faction": "Russia",
+        "specialization": "Coastal Troops",
+        "category": "INF",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [],
+        "upgrades": []
+    },
+    {
+        "id": 175,
+        "name": "PTRK Konkurs",
+        "faction": "Russia",
+        "specialization": "Coastal Troops",
+        "category": "INF",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "AT"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 176,
+        "name": "SPG-9 Sapog",
+        "faction": "Russia",
+        "specialization": "Coastal Troops",
+        "category": "INF",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [],
+        "upgrades": []
+    },
+    {
+        "id": 177,
+        "name": "BMD-2",
+        "faction": "Russia",
+        "specialization": "VDV Brigade",
+        "category": "VEH",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "IFV"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 178,
+        "name": "BMD-4M",
+        "faction": "Russia",
+        "specialization": "VDV Brigade",
+        "category": "VEH",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "IFV"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 179,
+        "name": "BTR-D",
+        "faction": "Russia",
+        "specialization": "VDV Brigade",
+        "category": "VEH",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "IFV"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 180,
+        "name": "BTR-MDM Rakushka",
+        "faction": "Russia",
+        "specialization": "VDV Brigade",
+        "category": "VEH",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "IFV"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 181,
+        "name": "BTR-RD Robot",
+        "faction": "Russia",
+        "specialization": "VDV Brigade",
+        "category": "VEH",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "IFV"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 182,
+        "name": "BTR-ZD Skrezhet",
+        "faction": "Russia",
+        "specialization": "VDV Brigade",
+        "category": "VEH",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "IFV"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 183,
+        "name": "Kornet-D1",
+        "faction": "Russia",
+        "specialization": "VDV Brigade",
+        "category": "VEH",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "AT",
+            "Tank"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 184,
+        "name": "Sprut-SD",
+        "faction": "Russia",
+        "specialization": "VDV Brigade",
+        "category": "VEH",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Tank"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 185,
+        "name": "B-10 Kurganets",
+        "faction": "Russia",
+        "specialization": "Guard Tank Brigade",
+        "category": "VEH",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "IFV"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 186,
+        "name": "BMO-T",
+        "faction": "Russia",
+        "specialization": "Guard Tank Brigade",
+        "category": "VEH",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [],
+        "upgrades": []
+    },
+    {
+        "id": 187,
+        "name": "BMPT Terminator 2",
+        "faction": "Russia",
+        "specialization": "Guard Tank Brigade",
+        "category": "VEH",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "IFV"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 188,
+        "name": "9P162 Kornet-T",
+        "faction": "Russia",
+        "specialization": "Guard Tank Brigade",
+        "category": "VEH",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "AT",
+            "Tank"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 189,
+        "name": "T-14 Armata",
+        "faction": "Russia",
+        "specialization": "Guard Tank Brigade",
+        "category": "VEH",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Tank"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 190,
+        "name": "T-15 Barbaris",
+        "faction": "Russia",
+        "specialization": "Guard Tank Brigade",
+        "category": "VEH",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Tank"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 191,
+        "name": "BMOP Toros Rapira",
+        "faction": "Russia",
+        "specialization": "Coastal Troops",
+        "category": "VEH",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [],
+        "upgrades": []
+    },
+    {
+        "id": 192,
+        "name": "BMP-3F",
+        "faction": "Russia",
+        "specialization": "Coastal Troops",
+        "category": "VEH",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "IFV"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 193,
+        "name": "9P148 Konkurs",
+        "faction": "Russia",
+        "specialization": "Coastal Troops",
+        "category": "VEH",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "AT"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 194,
+        "name": "BT-3F",
+        "faction": "Russia",
+        "specialization": "Coastal Troops",
+        "category": "VEH",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Tank"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 195,
+        "name": "BTR-80",
+        "faction": "Russia",
+        "specialization": "Coastal Troops",
+        "category": "VEH",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "IFV"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 196,
+        "name": "BTR-90",
+        "faction": "Russia",
+        "specialization": "Coastal Troops",
+        "category": "VEH",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "IFV"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 197,
+        "name": "PT-76B",
+        "faction": "Russia",
+        "specialization": "Coastal Troops",
+        "category": "VEH",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Tank"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 198,
+        "name": "T-80BV",
+        "faction": "Russia",
+        "specialization": "Coastal Troops",
+        "category": "VEH",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Tank"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 199,
+        "name": "2S41 Drok",
+        "faction": "Russia",
+        "specialization": "VDV Brigade",
+        "category": "SUP",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Artillery"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 200,
+        "name": "2S9 Nona-S",
+        "faction": "Russia",
+        "specialization": "VDV Brigade",
+        "category": "SUP",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Artillery"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 201,
+        "name": "KamAZ VDV",
+        "faction": "Russia",
+        "specialization": "VDV Brigade",
+        "category": "SUP",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Logistics",
+            "Paradrop"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 202,
+        "name": "2S19M1 Msta-S",
+        "faction": "Russia",
+        "specialization": "Guard Tank Brigade",
+        "category": "SUP",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Artillery"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 203,
+        "name": "2S31 Vena",
+        "faction": "Russia",
+        "specialization": "Guard Tank Brigade",
+        "category": "SUP",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Artillery"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 204,
+        "name": "2S35 Koalitsiya-SV",
+        "faction": "Russia",
+        "specialization": "Guard Tank Brigade",
+        "category": "SUP",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Artillery"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 205,
+        "name": "Derivatsiya",
+        "faction": "Russia",
+        "specialization": "Guard Tank Brigade",
+        "category": "SUP",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "AA"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 206,
+        "name": "S-300V4 Antey",
+        "faction": "Russia",
+        "specialization": "Guard Tank Brigade",
+        "category": "SUP",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "AA"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 207,
+        "name": "9K331 Tor-M1",
+        "faction": "Russia",
+        "specialization": "Guard Tank Brigade",
+        "category": "SUP",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "AA"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 208,
+        "name": "TOS-1 Buratino",
+        "faction": "Russia",
+        "specialization": "Guard Tank Brigade",
+        "category": "SUP",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Artillery"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 209,
+        "name": "2S1M1 Gvozdika",
+        "faction": "Russia",
+        "specialization": "Coastal Troops",
+        "category": "SUP",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Artillery"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 210,
+        "name": "2S23 Nona-SVK",
+        "faction": "Russia",
+        "specialization": "Coastal Troops",
+        "category": "SUP",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Artillery"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 211,
+        "name": "2S39 Magnolia",
+        "faction": "Russia",
+        "specialization": "Coastal Troops",
+        "category": "SUP",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Artillery"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 212,
+        "name": "9K720 Iskander-M",
+        "faction": "Russia",
+        "specialization": "Coastal Troops",
+        "category": "SUP",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Artillery"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 213,
+        "name": "A222 Bereg",
+        "faction": "Russia",
+        "specialization": "Coastal Troops",
+        "category": "SUP",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Artillery"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 214,
+        "name": "Tor-M2DT",
+        "faction": "Russia",
+        "specialization": "Coastal Troops",
+        "category": "SUP",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "AA"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 215,
+        "name": "DT-30PM Vityaz",
+        "faction": "Russia",
+        "specialization": "Coastal Troops",
+        "category": "SUP",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Logistics"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 216,
+        "name": "S-350 Vityaz",
+        "faction": "Russia",
+        "specialization": "Coastal Troops",
+        "category": "SUP",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "AA",
+            "Logistics"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 217,
+        "name": "ZSU-23-4M3 Biryusa",
+        "faction": "Russia",
+        "specialization": "Coastal Troops",
+        "category": "SUP",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "AA"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 218,
+        "name": "Ka-52 Alligator",
+        "faction": "Russia",
+        "specialization": "VDV Brigade",
+        "category": "HEL",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Helicopter"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 219,
+        "name": "Mi-24PN",
+        "faction": "Russia",
+        "specialization": "VDV Brigade",
+        "category": "HEL",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Helicopter"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 220,
+        "name": "Mi-26 Korova",
+        "faction": "Russia",
+        "specialization": "VDV Brigade",
+        "category": "HEL",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Helicopter"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 221,
+        "name": "Mi-28NM Mikhalych",
+        "faction": "Russia",
+        "specialization": "VDV Brigade",
+        "category": "HEL",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Helicopter"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 222,
+        "name": "Mi-35M",
+        "faction": "Russia",
+        "specialization": "VDV Brigade",
+        "category": "HEL",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Helicopter"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 223,
+        "name": "Mi-8AMTSh",
+        "faction": "Russia",
+        "specialization": "VDV Brigade",
+        "category": "HEL",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Helicopter"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 224,
+        "name": "Mi-8MTV-5 Zeleniy",
+        "faction": "Russia",
+        "specialization": "VDV Brigade",
+        "category": "HEL",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Helicopter"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 225,
+        "name": "Ka-29",
+        "faction": "Russia",
+        "specialization": "Coastal Troops",
+        "category": "HEL",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Helicopter"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 226,
+        "name": "Ka-52K Katran",
+        "faction": "Russia",
+        "specialization": "Coastal Troops",
+        "category": "HEL",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Helicopter"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 227,
+        "name": "Mi-38T",
+        "faction": "Russia",
+        "specialization": "Coastal Troops",
+        "category": "HEL",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Helicopter"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 228,
+        "name": "IL-76MD",
+        "faction": "Russia",
+        "specialization": "VDV Brigade",
+        "category": "AIR",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Aircraft",
+            "Transport",
+            "Paradrop"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 229,
+        "name": "MiG-35",
+        "faction": "Russia",
+        "specialization": "VDV Brigade",
+        "category": "AIR",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Aircraft"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 230,
+        "name": "Su-30SM",
+        "faction": "Russia",
+        "specialization": "VDV Brigade",
+        "category": "AIR",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Aircraft"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 231,
+        "name": "Su-34",
+        "faction": "Russia",
+        "specialization": "VDV Brigade",
+        "category": "AIR",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Aircraft"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 232,
+        "name": "Su-35S",
+        "faction": "Russia",
+        "specialization": "VDV Brigade",
+        "category": "AIR",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Aircraft"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 233,
+        "name": "Su-57",
+        "faction": "Russia",
+        "specialization": "VDV Brigade",
+        "category": "AIR",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Aircraft"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 234,
+        "name": "Tu-160",
+        "faction": "Russia",
+        "specialization": "VDV Brigade",
+        "category": "AIR",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Aircraft"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 235,
+        "name": "AN-72P",
+        "faction": "Russia",
+        "specialization": "Coastal Troops",
+        "category": "AIR",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Aircraft"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 236,
+        "name": "MiG-29K",
+        "faction": "Russia",
+        "specialization": "Coastal Troops",
+        "category": "AIR",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Aircraft"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 237,
+        "name": "Su-33",
+        "faction": "Russia",
+        "specialization": "Coastal Troops",
+        "category": "AIR",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Aircraft"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 238,
+        "name": "Tu-142",
+        "faction": "Russia",
+        "specialization": "Coastal Troops",
+        "category": "AIR",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Aircraft"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 239,
+        "name": "Tu-22M3",
+        "faction": "Russia",
+        "specialization": "Coastal Troops",
+        "category": "AIR",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Aircraft"
+        ],
+        "upgrades": []
+    },
+    {
+        "id": 240,
+        "name": "YaK-38M",
+        "faction": "Russia",
+        "specialization": "Coastal Troops",
+        "category": "AIR",
+        "cost": 0,
+        "verified": false,
+        "transportOptions": [],
+        "tags": [
+            "Aircraft"
+        ],
+        "upgrades": []
     }
 ]

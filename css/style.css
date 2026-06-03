@@ -225,3 +225,240 @@ header p {
         width: 100%;
     }
 }
+
+.analysis-section {
+    margin-top: 35px;
+}
+
+.analysis-section h2 {
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+}
+
+.analysis-box {
+    background: linear-gradient(180deg, rgba(31,41,55,.98), rgba(17,24,39,.98));
+    border: 1px solid #374151;
+    border-left: 5px solid #f59e0b;
+    border-radius: 6px;
+    padding: 18px;
+    display: grid;
+    gap: 10px;
+}
+
+.analysis-good {
+    color: #10b981;
+    font-weight: bold;
+}
+
+.analysis-warn {
+    color: #f59e0b;
+    font-weight: bold;
+}
+
+.analysis-bad {
+    color: #ef4444;
+    font-weight: bold;
+}
+
+.upgrade-list {
+    margin-top: 14px;
+    display: grid;
+    gap: 8px;
+}
+
+.upgrade-option {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid #374151;
+    padding: 9px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.upgrade-option input {
+    margin-right: 8px;
+}
+
+.no-upgrades {
+    color: #9ca3af;
+    font-style: italic;
+}
+
+.filters select option {
+    background-color: #111827;
+    color: #ffffff;
+}
+
+.filters select option:checked,
+.filters select option:hover {
+    background-color: #f59e0b;
+    color: #111827;
+}
+
+.builder-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 430px;
+    gap: 28px;
+    align-items: start;
+}
+
+.left-panel {
+    min-width: 0;
+}
+
+.right-panel {
+    position: sticky;
+    top: 20px;
+    max-height: calc(100vh - 40px);
+    overflow-y: auto;
+    padding-right: 6px;
+}
+
+.right-panel .points-grid {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.right-panel .point-card {
+    padding: 14px;
+}
+
+.right-panel .point-card h2 {
+    font-size: 22px;
+}
+
+.right-panel .point-card span {
+    font-size: 18px;
+}
+
+.right-panel .analysis-section,
+.right-panel .deck-section {
+    margin-top: 28px;
+}
+
+.right-panel .deck-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 14px;
+}
+
+.right-panel .unit-card {
+    padding: 15px;
+}
+
+.filters {
+    background: rgba(17, 24, 39, 0.75);
+    border: 1px solid #374151;
+    border-left: 5px solid #f59e0b;
+    border-radius: 6px;
+    padding: 16px;
+}
+
+.filters select,
+#searchInput {
+    min-width: 180px;
+}
+
+.units-grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.unit-card {
+    position: relative;
+}
+
+.unit-card::before {
+    content: attr(data-category);
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: rgba(245, 158, 11, 0.18);
+    color: #f59e0b;
+    border: 1px solid rgba(245, 158, 11, 0.35);
+    padding: 4px 8px;
+    border-radius: 3px;
+    font-size: 11px;
+    font-weight: 900;
+}
+
+@media (max-width: 1050px) {
+    .builder-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .right-panel {
+        position: static;
+        max-height: none;
+    }
+}
+
+.view-toggle {
+    display: flex;
+    gap: 12px;
+    margin: 20px 0;
+}
+
+.view-btn {
+    background: #1f2937;
+    color: white;
+    border: 1px solid #4b5563;
+    border-radius: 4px;
+    padding: 12px 18px;
+    font-weight: 900;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.view-btn.active {
+    background: linear-gradient(180deg, #f59e0b, #b45309);
+    color: #111827;
+}
+
+.tree-view {
+    display: grid;
+    gap: 20px;
+}
+
+.tree-spec {
+    border-left: 5px solid #f59e0b;
+    background: rgba(31,41,55,.75);
+    padding: 18px;
+    border-radius: 6px;
+}
+
+.tree-spec h3 {
+    font-size: 26px;
+    margin-bottom: 14px;
+}
+
+.tree-category {
+    margin: 14px 0 14px 20px;
+    border-left: 2px solid #4b5563;
+    padding-left: 18px;
+}
+
+.tree-category h4 {
+    color: #f59e0b;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.tree-unit {
+    background: #111827;
+    border: 1px solid #374151;
+    border-radius: 5px;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+
+.tree-unit-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    align-items: center;
+}
+
+.tree-icon {
+    font-size: 22px;
+    margin-right: 8px;
+}
