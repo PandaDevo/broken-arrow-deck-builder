@@ -4,19 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Broken Arrow Deck Builder</title>
-
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
 <header>
     <h1>Broken Arrow Deck Builder</h1>
-    <p>Create and manage battlegroups</p>
+    <p>Create, analyse, save and validate battlegroups</p>
 </header>
 
 <main class="builder-layout">
 
     <section class="left-panel">
+
+        <section class="deck-section">
+            <h2>Your Deck</h2>
+
+            <div class="deck-actions">
+                <button class="view-btn" onclick="saveDeck()">Save</button>
+                <button class="view-btn" onclick="loadSavedDeck()">Load</button>
+                <button class="view-btn danger-mini" onclick="clearDeck()">Clear</button>
+            </div>
+
+            <div class="total-bar">
+                <span>Total Deck</span>
+                <strong id="totalDeckPoints">0 / 10000</strong>
+            </div>
+
+            <div id="deckContainer" class="deck-grid"></div>
+        </section>
+
+        <section class="units-section">
+            <h2>Available Units</h2>
+            <div id="unitsContainer" class="units-grid"></div>
+        </section>
+
+    </section>
+
+    <aside class="right-panel">
 
         <section class="filters">
             <input type="text" id="searchInput" placeholder="Search units...">
@@ -43,27 +68,35 @@
                 <option value="ALL">All Roles</option>
                 <option value="Recon">Recon</option>
                 <option value="Artillery">Artillery</option>
+                <option value="Rocket">Rocket</option>
                 <option value="AA">AA</option>
                 <option value="AT">AT</option>
                 <option value="Paradrop">Paradrop</option>
                 <option value="IFV">IFV</option>
                 <option value="SOF">SOF</option>
+                <option value="Supply">Supply</option>
+                <option value="Logistics">Logistics</option>
             </select>
         </section>
 
         <div class="view-toggle">
-        <button id="cardViewBtn" class="view-btn active" onclick="setView('cards')">Card View</button>
-        <button id="treeViewBtn" class="view-btn" onclick="setView('tree')">Tree View</button>
+            <button id="cardViewBtn" class="view-btn active" onclick="setView('cards')">Cards</button>
+            <button id="treeViewBtn" class="view-btn" onclick="setView('tree')">Tree</button>
+        </div>
+
+        <section class="unit-detail-section">
+
+    <h2>Unit Details</h2>
+
+    <div id="unitDetailPanel" class="unit-detail-panel">
+
+        <div class="empty-detail">
+            Select a unit to view details
+        </div>
+
     </div>
 
-        <section class="units-section">
-            <h2>Available Units</h2>
-            <div id="unitsContainer" class="units-grid"></div>
-        </section>
-
-    </section>
-
-    <aside class="right-panel">
+</section>
 
         <section class="points-grid">
             <div class="point-card"><h2>REC</h2><span id="recPoints">0 / 2250</span></div>
@@ -79,16 +112,18 @@
             <div id="analysisContainer" class="analysis-box"></div>
         </section>
 
-        <section class="deck-section">
-            <h2>Your Deck</h2>
-            <div id="deckContainer" class="deck-grid"></div>
+        <section class="legend-section">
+            <h2>Data Status</h2>
+            <div class="analysis-box small-text">
+                <div><span class="verified-pill">Verified</span> cost checked</div>
+                <div><span class="unverified-pill">Unverified</span> needs checking</div>
+            </div>
         </section>
 
     </aside>
 
 </main>
 
-    <script src="js/script.js"></script>
-
+<script src="js/script.js"></script>
 </body>
 </html>
